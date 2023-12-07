@@ -1,8 +1,12 @@
+import Layout from "../components/templates/Layout";
+
 export default function Dashboard() {
 
     return (
-        <div>
-            <h1>Dashboard</h1>
+        <div style={{ height: '100vh' }}>
+            <Layout />
+
         </div>
+
     )
 }

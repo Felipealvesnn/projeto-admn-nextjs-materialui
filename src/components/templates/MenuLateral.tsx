@@ -4,7 +4,7 @@ export default function MenuLateral() {
     return (
         <Drawer
             anchor={"left"}
-            open={true}
+            open={false}
             onClose={()=>{}}
         >
             {/* itens pra ter dentro */}
