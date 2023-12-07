@@ -1,7 +1,13 @@
-export default function MenuLateral(){
+import { Drawer } from "@mui/material";
+
+export default function MenuLateral() {
     return (
-        <div>
-            <h1>MenuLateral</h1>
-        </div>
+        <Drawer
+            anchor={"left"}
+            open={true}
+            onClose={()=>{}}
+        >
+            {/* itens pra ter dentro */}
+        </Drawer>
     )
 }

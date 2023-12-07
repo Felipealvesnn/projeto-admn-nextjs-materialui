@@ -1,3 +1,4 @@
+import MenuLateral from "./MenuLateral"
 
 interface LayoutProps {
     titulo: string
@@ -8,8 +9,10 @@ interface LayoutProps {
 export default function Layout(props: LayoutProps) {
 
     return (
-        <div>
-            <h1>Layout</h1>
-        </div>
+        <>
+            <MenuLateral />
+
+
+        </>
     )
 }
